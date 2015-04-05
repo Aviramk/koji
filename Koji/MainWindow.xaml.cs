@@ -34,7 +34,10 @@ namespace Koji
             ".wav",
         };
 
-}
+        public const int MAX_VOLUME = 100;
+        public const int MIN_VOLUME = 0;
+
+    }
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -43,6 +46,7 @@ namespace Koji
         public MainWindow()
         {
             InitializeComponent();
+            SoundLibrary soundLibrary = new SoundLibrary();
         }
 
         /// <summary>
@@ -69,6 +73,7 @@ namespace Koji
             {
                 return;
             }
+
 
         }
     }
