@@ -1,0 +1,20 @@
+﻿<Window x:Class="Koji.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Koji The Dynamic Soundboard" Height="350" Width="525">
+    <Grid>
+        <Button Content="Load Configuration" HorizontalAlignment="Left" Margin="393,272,0,0" VerticalAlignment="Top" Width="115"/>
+        <Button Content="Save Configuration" HorizontalAlignment="Left" Margin="393,230,0,0" VerticalAlignment="Top" Width="114" Click="Button_Click"/>
+        <Grid x:Name="SoundsList" HorizontalAlignment="Left" Height="272" Margin="21,22,0,0" VerticalAlignment="Top" Width="367">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="181*"/>
+                <ColumnDefinition Width="48*"/>
+                <ColumnDefinition Width="42*"/>
+                <ColumnDefinition Width="51*"/>
+                <ColumnDefinition Width="45*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
+        <Button Content="Add new sound" HorizontalAlignment="Left" Margin="393,39,0,0" VerticalAlignment="Top" Width="94" Click="Button_Click"/>
+
+    </Grid>
+</Window>

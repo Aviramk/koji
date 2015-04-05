@@ -1,0 +1,8 @@
+Koji Dynamic Soundboard
+-----------------------
+This application is written in C# and is used to easily create your needed soundboard for whatever purpose.
+You can add sounds, change each volume, play, stop and pause.
+I found it useful for my acting class, when performing a play this helps a lot in playing various sounds of the soundtrack.
+
+It is licensed under Apache 2.0 license.
+Enjoy! 
